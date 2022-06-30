@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
@@ -12,6 +14,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #E5E7EB;
 }
 
 .header-container {
@@ -34,7 +37,6 @@ a {
 .header-links ul {
     display: flex;
     font-size: 18px;
-    color: #E5E7EB;
     list-style: none;
     padding: 0px;
     margin: 0px;
@@ -45,7 +47,7 @@ a {
     display: flex;
     align-items: center;
     padding: 100px 0px;
-    gap: 50px;
+    gap: 36px;
 }
 
 .header-left {
@@ -62,7 +64,7 @@ a {
 .header-text {
     font-size: 18px;
     color: #E5E7EB;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 button {
@@ -72,8 +74,8 @@ button {
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 700;
-    height: 38px;
-    width: 130px;
+    height: 36x;
+    width: 140px;
 }
 
 .header-right {
@@ -81,7 +83,7 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #4B4C4A;
-    height: 200px;
+    height: 193px;
     width: 480px;
 }
 
