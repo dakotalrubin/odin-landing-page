@@ -135,6 +135,31 @@ button {
     color: #4B4C4A;
 }
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    width: 810px;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: 900;
+    color: #1F2937;
+    padding-left: 530px;
+}
+
 .footer {
     display: flex;
     justify-content: center;
